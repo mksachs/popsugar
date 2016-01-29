@@ -92,14 +92,14 @@ def main():
     logger.info('')
 
     logger.info('Status Codes (code: count)')
-    for code in sorted(status_codes, key=lambda (k):status_codes[k], reverse=True ):
+    for code in sorted(status_codes, key=lambda (k): status_codes[k], reverse=True):
         logger.info('{}: {}'.format(code, status_codes[code]))
 
     if args.plot:
         logger.info('--------------------')
         logger.info('Plotable histogram:')
         print 'code,count'
-        for code in sorted(status_codes, key=lambda (k):status_codes[k], reverse=True ):
+        for code in sorted(status_codes, key=lambda (k): status_codes[k], reverse=True):
             print '{},{}'.format(code, status_codes[code])
         logger.info('')
 
