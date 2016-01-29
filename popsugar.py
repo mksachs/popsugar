@@ -1,3 +1,8 @@
+#! /bin/sh
+""":"
+exec python $0 ${1+"$@"}
+"""
+
 import sys
 import urllib
 import os
@@ -13,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 sys.path.append('./')
 
-# Will skip any log lines that dont have a client or a process_time
+# Will skip any log lines that don't have a client or a process_time
 log_format_pat = re.compile(
     r'(?P<ip>\S+)\s+'
     r'(?P<client>\S+)\s+'
