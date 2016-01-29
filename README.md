@@ -13,7 +13,7 @@ You will need an internet connection to download the log file. You can also have
 
 # Results
 
-The code ignores malformed log lines (of which there are a few). For the rest it uses a regular expression to process the lines. The HTTP stats codes are in the table below:
+The code ignores malformed log lines (of which there are a few). For the rest it uses a regular expression to process the lines. The HTTP status codes are in the table below:
 
 | Code | Count |
 | ------ | ----------- |
