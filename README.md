@@ -13,4 +13,4 @@ You will need an internet connection to download the log file. You can also have
 
 # Results
 
-![Status code histogram](https://github.com/mksachs/popsugar/blob/master/plot/http_status_codes.pdf "Status code histogram.")
+![Status code histogram](https://github.com/mksachs/popsugar/blob/master/plot/http_status_codes.png "Status code histogram.")
